@@ -26,6 +26,7 @@ The repository contains the binary to test the application.
 To prepare the environment execute the following steps:
 
  * Open a terminal and execute the demo application:
+
    ```
    $ cd arthas-3.1.3-bin/
    $ java -jar arthas-demo.jar
@@ -52,27 +53,28 @@ To prepare the environment execute the following steps:
    $ java -jar arthas-boot.jar
      * [1]: 35542
        [2]: 71560 arthas-demo.jar
-  ```
+   ```
 
-  The __Demo__ process is the second as shown above, press __2__ then `Enter`. Arthas will attach to the target process, and start to output:
+   The __Demo__ process is the second as shown above, press __2__ then `Enter`.
+   Arthas will attach to the target process, and start to output:
 
-  ```
-  [INFO] Try to attach process 71560
-  [INFO] Attach process 71560 success.
-  [INFO] arthas-client connect 127.0.0.1 3658
-    ,---.  ,------. ,--------.,--.  ,--.  ,---.   ,---.
-   /  O  \ |  .--. ''--.  .--'|  '--'  | /  O  \ '   .-'
-  |  .-.  ||  '--'.'   |  |   |  .--.  ||  .-.  |`.  `-.
-  |  | |  ||  |\  \    |  |   |  |  |  ||  | |  |.-'    |
-  `--' `--'`--' '--'   `--'   `--'  `--'`--' `--'`-----'
+   ```
+   [INFO] Try to attach process 71560
+   [INFO] Attach process 71560 success.
+   [INFO] arthas-client connect 127.0.0.1 3658
+     ,---.  ,------. ,--------.,--.  ,--.  ,---.   ,---.
+    /  O  \ |  .--. ''--.  .--'|  '--'  | /  O  \ '   .-'
+   |  .-.  ||  '--'.'   |  |   |  .--.  ||  .-.  |`.  `-.
+   |  | |  ||  |\  \    |  |   |  |  |  ||  | |  |.-'    |
+   `--' `--'`--' '--'   `--'   `--'  `--'`--' `--'`-----'
 
-  wiki: https://alibaba.github.io/arthas
-  version: 3.0.5.20181127201536
-  pid: 71560
-  time: 2018-11-28 19:16:24
+   wiki: https://alibaba.github.io/arthas
+   version: 3.0.5.20181127201536
+   pid: 71560
+   time: 2018-11-28 19:16:24
 
-  $
-  ```
+   $
+   ```
 
 ## Commands to test
 
